@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>New Vision HTML CSS Template</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" /> <!-- https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans -->
+    <link href="css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+    <link href="slick/slick.css" rel="stylesheet" /> <!-- https://kenwheeler.github.io/slick/ -->
+    <link href="slick/slick-theme.css" rel="stylesheet" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com -->
+	<link href="css/templatemo-new-vision.css" rel="stylesheet" />
+<!--
+
+New Vision Template
+
+https://templatemo.com/tm-542-new-vision
+
+-->
+</head>
+<body>
+    <!-- Page Header -->
+    <div class="container-fluid">
+        <div class="tm-site-header">
+            <div class="row">
+                <div class="col-12 tm-site-header-col">
+                    <div class="tm-site-header-left">
+                        <h1 class="tm-site-name" style="color: brown;">New Vision</h1>
+                    </div>
+                    <div class="tm-site-header-right tm-menu-container-outer">
+                        
+                        <!--Navbar-->
+                        <nav class="navbar navbar-expand-lg">
+                        
+                          <!-- Collapse button -->
+                          <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                                class="fas fa-bars fa-1x"></i></span></button>
+                        
+                          <!-- Collapsible content -->
+                          <div class="collapse navbar-collapse tm-nav" id="navbarSupportedContent1">
+                        
+                            <!-- Links -->
+                            <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link tm-nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link tm-nav-link" href="data:image/jpeg;base64,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">Our Company</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link tm-nav-link" href="services.html">Services</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
+                              </li>
+                            </ul>
+                            <!-- Links -->
+                        
+                          </div>
+                          <!-- Collapsible content -->
+                        
+                        </nav>
+                        <!--/.Navbar-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="tm-main-bg"></div>        
+            </div>
+        </div>
+        
+        <!-- Main -->
+        <main>
+            <!-- Welcome section -->
+            <section class="tm-welcome">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="tm-section-header tm-header-floating">Welcome to New Vision</h2>         
+                    </div>
+                </div>
+                
+                <div class="row tm-welcome-row">
+                    <article class="col-lg-6 tm-media">
+                        <img src="img/img-3x2-01.jpg" alt="Welcome image" class="img-fluid tm-media-img" />
+                        <div class="tm-media-body">
+                            <a href="#" class="tm-article-link"><h3 class="tm-article-title text-uppercase">Best collection</h3></a>
+                            <p>Aliquam purus arcu, congue a gravida ac, facilisis vel erat. Maecenas pretium sem.</p>
+                        </div>
+                    </article>
+                    <article class="col-lg-6 tm-media">
+                        <img src="img/img-3x2-02.jpg" alt="Welcome image" class="img-fluid tm-media-img" />
+                        <div class="tm-media-body">
+                            <a href="#" class="tm-article-link"><h3 class="tm-article-title text-uppercase">New Design for your website</h3></a>
+                            <p>Aliquam purus arcu, congue a gravida ac, facilisis vel erat. Maecenas pretium sem at nisl malesuada, quis.</p>
+                        </div>
+                    </article>
+                    <article class="col-lg-6 tm-media">
+                        <img src="img/img-3x2-03.jpg" alt="Welcome image" class="img-fluid tm-media-img" />
+                        <div class="tm-media-body">
+                            <a href="#" class="tm-article-link"><h3 class="tm-article-title text-uppercase">Most unique idea ever made</h3></a>
+                            <p>Aliquam purus arcu, congue a gravida ac, facilisis vel erat. Maecenas. <span class="tm-hover-color">Hover #09F</span></p>
+                        </div>
+                    </article>
+                    <article class="col-lg-6 tm-media">
+                        <img src="img/img-3x2-04.jpg" alt="Welcome image" class="img-fluid tm-media-img" />
+                        <div class="tm-media-body">
+                            <a href="#" class="tm-article-link"><h3 class="tm-article-title text-uppercase">Simple touch</h3></a>
+                            <p>Please tell your friends about TemplateMo website. Thank you. Title / Text #666</p>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="row tm-welcome-row-2">
+                    <div class="col-lg-4 tm-dotted-box-container">
+                        <article class="tm-dotted-box">
+                            <i class="fas fa-3x fa-binoculars tm-article-icon"></i>
+                            <h3 class="tm-article-title">Template Usage</h3>
+                            <p class="tm-article-text">You can feel free to edit and use New Vision template for your commercial websites. Title color is #333</p>
+                            <a class="tm-btn tm-btn-rounded tm-article-link" href="#">More Details</a>
+                        </article>    
+                    </div>
+                    <div class="col-lg-4 tm-dotted-box-container">
+                        <article class="tm-dotted-box">
+                            <i class="fas fa-3x fa-microscope tm-article-icon"></i>
+                            <h3 class="tm-article-title">New Vision</h3>
+                            <p class="tm-article-text"><a rel="nofollow" target="_parent" href="https://templatemo.com/tm-542-new-vision">New Vision</a> comes with 4 different HTML pages and provided free of charge by TemplateMo. You can add more pages if you need. Text color is #666</p>
+                        </article>    
+                    </div>
+                    <div class="col-lg-4 tm-dotted-box-container">
+                        <article class="tm-dotted-box">
+                            <i class="fas fa-3x fa-glasses tm-article-icon"></i>
+                            <h3 class="tm-article-title">Download Sites</h3>
+                            <p class="tm-article-text">Do not re-distribute our template ZIP file on your website. Or contact us first. Button color is #C99</p>
+                            <a class="tm-btn tm-article-link" href="#">Read More...</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Featured -->
+            <section class="tm-featured">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="tm-section-header tm-section-header-small">Featured Carousel Items</h2>        
+                    </div>
+                </div>
+                
+                
